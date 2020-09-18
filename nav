@@ -1,0 +1,40 @@
+<template>
+   <div class="nav">
+       <div class="nav-lf">
+           <img src="../assets/logo.png" alt="" srcset="">
+
+       </div>
+   </div>
+</template>
+
+<script>
+export default {
+ data(){
+ return{}
+ },
+ created(){},
+ methods:{},
+ components:{}
+}
+
+</script>
+<style scoped>
+.nav{
+    width: 1226px;
+  height: 100px;
+  line-height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+.nav-lf {
+    height: 100%;
+    position: absolute;
+}
+.nav-lf img{
+
+   position: relative;
+   top:20px;
+   left: 0px;     
+}
+</style>
